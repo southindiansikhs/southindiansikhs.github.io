@@ -65,6 +65,8 @@
 
 
 .watermark {
+  display: flex;
+  justify-content: center;
   position: fixed;
   opacity: 0.5; /* Adjust the opacity as needed */
   font-size: 36px; /* Adjust the font size as needed */
@@ -327,7 +329,7 @@ hr {
               .dk-footer-form button[type=submit] {
                 position:absolute;
                 top: 0;
-                right: 1;
+                
                 margin-bottom: 20px;
                 padding: 9px 12px 9px 12px;
                 border-top-right-radius: 25px;
