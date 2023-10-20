@@ -61,22 +61,14 @@
     text-align: center;
     margin-top: 20px; */
     }
-    .blinking-text {
-      animation: blink 1s infinite;
-  }
-
-  @keyframes blink {
-      0% {
-          opacity: 1;
-      }
-      50% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 1;
-      }
-  }
-
+  
+    .titleName2{
+      animation: multicolor-flash2 2s infinite;
+     /* font-size: 24px;
+     text-align: center;
+     margin-top: 20px; */
+     }
+   
 
 .watermark {
   position: fixed;
