@@ -97,9 +97,23 @@ hr {
   border-top: 2px solid white; /* Add a new line with 3px thickness and black color */
 }
 .ttd{
-  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+  height: 230px;
+  width: 250px;
+  margin-left: 80px;
   color: white;
 
+}
+#audioPlayer{
+  width:300px;
+  height: 54px;
+
+}
+.imaggg{
+  transform: rotate(90deg);
 }
 
 .blink {
@@ -141,7 +155,7 @@ hr {
 
 
 
-.lists{ margin-right: 300px}
+.lists{ margin-right: 200px}
 
 @media  (max-width:1025px) {
   .lists{ margin-right: 0px}
@@ -153,13 +167,27 @@ hr {
     /* padding: 0; */
     justify-content: space-between;
   }
+  #audioPlayer{
+    width:220px;
+    height: 54px;
+  
+  }
 }
 @media (min-width: 577px) and (max-width: 1024px) {
   .container{
     /* padding: 0; */
     justify-content: space-between;
   }
+  #audioPlayer{
+    width:100px;
+    height: 54px;
+  
+  }
+  
 }
+
+
+
 
 
 /* .row1{
