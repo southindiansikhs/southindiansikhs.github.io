@@ -69,7 +69,21 @@
      margin-top: 20px; */
      }
    
+     .carousel-caption {
 
+      position: absolute;
+      bottom: 7rem;
+      left: 50%;
+      transform: translateX(-50%);
+      /* background: rgba(0, 0, 0, 0.7); */
+      color: #df1414;
+      padding: 10px;
+      
+      margin-bottom: -6rem;
+      border-radius: 5px;
+      width: max-content;
+     
+   }
 .watermark {
   display: flex;
   justify-content: center;
