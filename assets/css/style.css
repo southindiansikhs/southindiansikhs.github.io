@@ -13,6 +13,42 @@
   }
 } */
 
+
+/* Default styles for all screen sizes */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* IE8 support */
+}
+
+/* Media query for screens up to 767px wide (e.g., mobile devices) */
+@media (max-width: 767px) {
+  .responsive-image {
+    max-width: 100%; /* Adjust as needed for your design */
+    height: 320px;
+  }
+}
+
+/* Media query for screens between 768px and 1023px wide (e.g., iPad portrait) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .responsive-image {
+    max-width: 100%; /* Adjust as needed for your design */
+    height: 320px;
+  }
+}
+
+/* Media query for screens 1024px and wider (e.g., laptops) */
+@media (min-width: 1024px) {
+  .responsive-image {
+   /*  max-width: 60%; Adjust as needed for your design */
+    width: 300px;
+    height: 320px;
+  }
+}
+
+
+
+
 @keyframes multicolor-flash {
   0% {
     color: red;
