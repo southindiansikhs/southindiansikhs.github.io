@@ -288,7 +288,7 @@
   overflow: hidden;
   cursor: pointer;
   right: 0px;
-  bottom: 13%;
+  bottom: 45%;
   background-color: #04ba81;
   border-radius: 10px 0px 0px 10px;
 }
@@ -2601,10 +2601,15 @@ section {
 .copyright {
   color: var(--White, #FFF);
   z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 15px;
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 88%; /* 15.84px */
 }
 
@@ -2626,7 +2631,7 @@ section {
 }
 .footerLayout{
 width:auto;
-height: 71px;
+height: 46px;
 flex-shrink: 0;
 background: var(--Primarycolor, #1A3079);
 }
